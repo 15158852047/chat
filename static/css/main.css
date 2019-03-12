@@ -759,3 +759,18 @@ ul.am-dropdown-content>li>a:focus, ul.am-dropdown-content>li>a:hover{
 	color: #fff;
 	font-size: 1em;
 }
+
+#readmore{
+	color: #ddd;
+	font-size: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+#readmore:hover {
+	color: #000;
+}
+sup{
+	position: absolute;
+	left: 40px;
+	top: 10px;
+}

@@ -1,8 +1,11 @@
 package models
 
-type List struct {
+import "time"
+
+type ChatList struct {
 	Id       int
 	Username string
-	Firstp   string
+	Info     string
+	Time     time.Time
 	Users    *Users `orm:"rel(fk)"`
 }
